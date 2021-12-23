@@ -17,7 +17,7 @@
   border: none;
   color: var(--main-bg-color);
   transition: color .3s ease-in;
-
+  outline: none;
 }
 
 .modal__close:hover {
@@ -26,7 +26,6 @@
 
 .modal__close:focus {
   color: var(--second-color);
-  outline: 1px solid var(--second-color);
 }
 
 .modal__close:active {
