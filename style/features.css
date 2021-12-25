@@ -6,8 +6,8 @@
 
 .feature__list {
   display: flex;
-  gap: 30px;
-  justify-content: space-between;
+  gap: 80px;
+  justify-content: center;
 }
 
 .feature__item {
@@ -25,10 +25,6 @@
 
 .feature__item_one {
   background-image: var(--url-features-one);
-}
-
-.feature__item_two {
-  background-image: var(--url-features-two);
 }
 
 .feature__item_three {
