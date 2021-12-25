@@ -70,7 +70,11 @@
   line-height: 130%;
   letter-spacing: 0.04em;
   color: var(--main-color);
+  box-shadow: 4px 4px 8px 4px var(--second-color);
   background-color: transparent;
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: .34s;
+  transition-timing-function: ease-in-out;
 }
 
 .product__button_order {
@@ -91,6 +95,7 @@
   background-color: var(--second-bg-color);
   border-color: var(--second-bg-color);
   color: var(--main-color);
+  box-shadow: 2px 2px 8px 2px var(--second-color);
 }
 
 .product__button_order:focus {
